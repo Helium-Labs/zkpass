@@ -28,8 +28,8 @@ import zkpass from './source'
 const result = await client.compile(Buffer.from(zkpass)).do()
 const b64program = result.result
 
+// ephermeral_tx_sig generated per TX sign. The ephemeral key can be for the session.
 const args = [ephemeral_pk, pass_ephermeral_sig, ephermeral_tx_sig]
-
 const smartSig = new algosdk.LogicSig(
   new Uint8Array(Buffer.from(b64program, 'base64')),
   args
