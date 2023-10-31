@@ -52,4 +52,6 @@ No warranties or liabilities offered to the fullest extent of applicable law. Us
 
 Not audited, therefore it's not production ready.
 
-Does this imply I'm somehow the custodian. NO! This is just open-source code (text), not a live service. You are fully responsible for how it's used. 
+Does this imply I'm somehow the custodian. NO! This is just open-source code (text), not a live service. You are fully responsible for how it's used.
+
+This doesn't mean I'm going to be commiting myself to anything. I reserve the right to change direction at any moment.
