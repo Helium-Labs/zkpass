@@ -12,7 +12,7 @@ With ZKPass, each user gets a unique LSIG account upon creation, identifiable by
 - `client_id`: An identifier for the application.
 - `user_id`: Identifier for the user.
 
-During authentication, public values reproduce the same LSIG (user's account) for signing transactions. The holder, using `H(password + salt + client_id + user_id)`—a slow hashing function to deter brute-force attacks—generates `(passpk, passsk)` with their password.
+During authentication, public values reproduce the same LSIG (user's account) for signing transactions. The holder, using `H(password + salt + client_id + user_id)`—a slow hashing function to deter brute-force attacks—generates `(passpk, passsk)` with their password. This keypair is then used to delegate authority to an epheremal key pair `(ephemeral_pk, ephemeral_sk)` as proven by `pass_ephermeral_sig`. Then the client can sign transactions, specifically its Id, which the LSIG will approve.
 
 ## Usage
 
