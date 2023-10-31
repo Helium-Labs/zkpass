@@ -28,7 +28,6 @@ import zkpass from './source'
 const result = await client.compile(Buffer.from(zkpass)).do()
 const b64program = result.result
 
-// H is a slow hashing function.
 const args = [ephemeral_pk, pass_ephermeral_sig, ephermeral_tx_sig]
 
 const smartSig = new algosdk.LogicSig(
