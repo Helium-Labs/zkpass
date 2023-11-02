@@ -1,7 +1,8 @@
-
 # ZKPass | LSIG: Secure Account Access via Salted Password with ZKP
 
 ZKPass uses a stateless LSIG that leverages Zero Knowledge Proof (ZKP) to verify that a user knows the password without exposing it. This authorization is used to sanction spend transactions.
+
+⭐Stars are appreciated⭐
 
 ## How it Works
 
