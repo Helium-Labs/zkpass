@@ -49,7 +49,7 @@ Subject to the attached GPL V3 license specified in `LICENSE`. The license can b
 
 ## Disclaimer
 
-No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.
+**No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.**
 
 **Not audited, therefore it's not production ready. Consider it more just an experiment published to share a cool idea.**
 
