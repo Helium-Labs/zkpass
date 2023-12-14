@@ -51,7 +51,7 @@ Subject to the attached GPL V3 license specified in `LICENSE`. The license can b
 
 No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.
 
-Not audited, therefore it's not production ready.
+**Not audited, therefore it's not production ready. Consider it more just an experiment published to share a cool idea.**
 
 Does this imply I'm somehow the custodian. NO! This is just open-source code (text), not a live service. You are fully responsible for how it's used.
 
