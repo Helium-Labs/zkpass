@@ -39,6 +39,13 @@ const smartSig = new algosdk.LogicSig(
 // Proceed to sign
 ```
 
+## Improving security
+
+It hasn't been audited and shouldn't be considered suitable for production use. Please use at your own risk.
+
+An area of improvement is making use of the Lease field, see here for an explainer:
+https://developer.algorand.org/docs/get-details/transactions/transactions/#lease
+
 ## Build
 
 Compile PyTeal to TEAL by calling python on `zkpass_lsig.py`
@@ -51,7 +58,7 @@ Subject to the attached GPL V3 license specified in `LICENSE`. The license can b
 
 **No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.**
 
-**Not audited, therefore it's not production ready. Consider it more just an experiment published to share a cool idea.**
+**Not audited, therefore it's not production ready. _Consider it more just an experiment published to share a cool idea._**
 
 Does this imply I'm somehow the custodian. NO! This is just open-source code (text), not a live service. You are fully responsible for how it's used.
 
