@@ -1,6 +1,6 @@
 # ZKPass | LSIG: Secure Account Access via Salted Password with ZKP
 
-**GPLV3 License. No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.**
+**GPLV3 License. No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk & do your own research to verify any claims made yourself.**
 **Not audited, therefore it's not production ready. _Consider it more just an experiment published to share a cool idea._**
 \
 \
@@ -60,7 +60,7 @@ Subject to the attached GPL V3 license specified in `LICENSE`. The license can b
 
 ## Disclaimer
 
-**No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.**
+**No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk & do your own research to verify any claims made yourself.**
 
 **Not audited, therefore it's not production ready. _Consider it more just an experiment published to share a cool idea._**
 
