@@ -2,13 +2,8 @@
 
 **GPLV3 License. No warranties or liabilities offered to the fullest extent of applicable law. Use at your own risk.**
 **Not audited, therefore it's not production ready. _Consider it more just an experiment published to share a cool idea._**
-
-
-
-
-
-
-
+\
+\
 ZKPass uses a stateless LSIG that leverages Zero Knowledge Proof (ZKP) to verify that a user knows the password without exposing it. This authorization is used to sanction spend transactions.
 
 ⭐Stars are appreciated⭐
