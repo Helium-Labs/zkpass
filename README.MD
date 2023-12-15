@@ -6,7 +6,7 @@ ZKPass uses a stateless LSIG that leverages Zero Knowledge Proof (ZKP) to verify
 
 ## How it Works
 
-With ZKPass, each user gets a unique LSIG account upon creation, identifiable by a combination of `passpk`, `salt`, `client_id`, and `user_id` *template variables*. Recall the address of an LSIG is the hash of the program code, so the address will be uniquely identified by the combination of template variables.
+With ZKPass, each user gets a unique LSIG account upon creation, identifiable by a combination of `passpk`, `salt`, `client_id`, and `user_id` *template variables*. Recall the address of an LSIG is the hash of the program code, so the address will be uniquely identified by the combination of template variables. In the given example, the template variables are injected as python arguments, which would be set by calling the Python function with the desired template variable values -- alternatively you can use `Tmpl.Bytes(...)` opcode.
 
 - `passpk`: Public key of a x25519 key derived from keygen material `H(password + salt + client_id + user_id)`.
 - `salt`: A unique nonce designed to thwart rainbow table attacks.
@@ -18,7 +18,7 @@ During authentication, public values reproduce the same LSIG (user's account) fo
 ## Usage
 
 ```typescript
-// zkpass is an LSIG account that's generated per user, on account creation, identifiable by (passpk + salt + client_id + user_id).
+// zkpass is an LSIG account that's generated per user, on account creation, identifiable by (passpk + salt + client_id + user_id) as hardcoded template variables, in the program code.
 // passpk is an x25519 key derived from H(password + salt + client_id + user_id)
 // salt is a nonce to mitigate rainbow table attacks
 // client_id is an application id
