@@ -14,6 +14,12 @@ user_id = Bytes("base64", "YQ==")
 Approves TX if signed by the ephemeral key, which has been delegated access by passsk.
 passpk is an x25519 key derived from H(password + salt + client_id + user_id).
 password is a user chosen UTF8 password.
+
+The arguments to zkpass are template variables that will be harcoded into the TEAL program code, which are provided when calling zkpass.
+Alternatively the Tmpl.Bytes opcode can be used.
+
+DISCLAIMER PER THE README: Has not been audited for security vulnerabilities, therefore should not be considered production ready.
+No warranties or liabilities to the fullest extent of the law. Use at your own risk.
 """
 def zkpass(
     tmpl_passpk=passpk,
