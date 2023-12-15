@@ -6,7 +6,7 @@ ZKPass uses a stateless LSIG that leverages Zero Knowledge Proof (ZKP) to verify
 
 ## How it Works
 
-With ZKPass, each user gets a unique LSIG account upon creation, identifiable by a combination of `passpk`, `salt`, `client_id`, and `user_id`.
+With ZKPass, each user gets a unique LSIG account upon creation, identifiable by a combination of `passpk`, `salt`, `client_id`, and `user_id` *template variables*. Recall the address of an LSIG is the hash of the program code, so the address will be uniquely identified by the combination of template variables.
 
 - `passpk`: Public key of a x25519 key derived from keygen material `H(password + salt + client_id + user_id)`.
 - `salt`: A unique nonce designed to thwart rainbow table attacks.
